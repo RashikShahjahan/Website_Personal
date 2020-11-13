@@ -1,6 +1,6 @@
 [build]
  publish = "public"
- command = "hugo serve --themesDir ../.."
+ command = "hugo serve "
 
 [context.production.environment]
  HUGO_VERSION = "0.78.1"

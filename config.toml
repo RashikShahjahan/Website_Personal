@@ -26,7 +26,11 @@ DefaultContentLanguage           = "en"                    # Default language fo
         timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
     [params.projects]
         useTwoColumns            = false                   # Use a layout with two columns instead of three
-
+    [params.contact]
+	localTime                = true                    # Show your current local time in contact section
+        timeZone                 = "America/New_York"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
+	
     # Share buttons on blog post pages
     [params.share]
         twitter                  = false
@@ -60,26 +64,26 @@ DefaultContentLanguage           = "en"                    # Default language fo
 #     name    = "Blog"
 #     url     = "/blog/"
 #     weight  = 1
+
 [[menu.main]]
-    name    = "Home"
+     name    = "Home"
      url     = "/"
      weight  = 0
 [[menu.main]]
-    name    = "Contact"
-    url     = "/contact"
-    weight  = 1
+   name = "About"
+    weight = 1
+    url = "/about/"
 [[menu.main]]
-    name    = "About"
-     url     = "/about"
-     weight  = 2
+   name = "Contact"
+    weight = 2
+    url = "/contact/"
 [[menu.main]]
-    name = "Resume"
-    identifier = "resume"
+   name = "Resume"
     weight = 3
-    url = "/resume_cv.pdf"
+    url = "/resume_cv.pdf/"
 [[menu.main]]
     name    = "Projects"
-     url     = "/projects"
+     url     = "/projects/"
      weight  = 4
 
 # We only use tag as a taxonomies
