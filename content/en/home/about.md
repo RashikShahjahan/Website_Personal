@@ -1,6 +1,7 @@
 ---
 title: "About"
-image:"https://cdn.discordapp.com/attachments/708933521690853398/776971398043926528/index.png"
+image:
+"https://cdn.discordapp.com/attachments/708933521690853398/776971398043926528/index.png"
 weight: 8
 ---
 
